@@ -33,13 +33,30 @@ h2 {
 	text-align: center;
 	margin:0;
 	font-family:'Oswald';
-	font-size:45px;
+	font-size:60px;
+	margin-top:20px;
 }
 
 h4 {
 	text-align: center;
 	margin:0;
 	font-family: 'Oswald';
+	font-size: 20px;
+}
+
+h3 {
+	text-decoration: underline;
+	font-family:'Oswald';
+	font-size: 40px;
+	margin:0;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+.resumecontainer li {
+	font-size: 20px;
 }
 
 .about {
@@ -60,6 +77,15 @@ h4 {
 	width:100%;
 	height:100%;
 	z-index:0;
+}
+
+.resumecontainer {
+	position:relative;
+	top:100px;
+	width:75%;
+	height:100%;
+	z-index:0;
+	margin: 0 auto;
 }
 
 #header {
