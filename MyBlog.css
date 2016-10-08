@@ -7,26 +7,27 @@ html, body
 }
 
 a {
-	color:#329900;
+	color:#383838;
 	text-decoration: none;
 }
 
 header h1 {
 	font-family: 'Oswald';
-	font-size:45px;
+	font-size:50px;
 	margin:0;
 	padding-top:20px;
 	padding-left: 40px;
-	color:#1a8cff;
+	color:#33CCCC;
 }
 
 div img {
+	margin-bottom: 2px;
 	float:left;
 	margin:50px;
-	margin-bottom: 10px;
-	height:390px;
-	width:300px;
+	height:350px;
+	width:275px;
 	z-index:0;
+	border: 6px dotted  #D8D8D8 ;
 }
 
 h2 {
@@ -77,17 +78,20 @@ hr {
 	color:purple;
 }
 
+.about p {
+	margin-top:0;
+}
+
 .container {
 	position:relative;
-	top:125px;
+	top:160px;
 	width:100%;
-	height:100%;
 	z-index:0;
 	margin: 0 auto;
 }
 
 .resumecontainer {
-	position:relative;
+	position: relative;
 	top:100px;
 	width:75%;
 	height:100%;
@@ -96,7 +100,7 @@ hr {
 }
 
 #header {
-	background-color: #f2f2f2;
+	background-color: #F8F8F8;
 }
 
 #header_wrapper {
@@ -109,19 +113,19 @@ hr {
 }
 
 #nav {
-	background-color: #f2f2f2;
+	background-color: #F8F8F8;
 	padding-right: 40px;
 }
 
 #nav_wrapper {
 	width: 100%;
-	border-bottom: 3px solid #cce0ff;
+	border-bottom: 2px solid #F2F2F2;
 	position: fixed;
 	margin: 0 auto;
 	top:55px;
 	margin-right:40px;
 	z-index:50;
-	background-color:#f2f2f2;
+	background-color:#F8F8F8;
 	text-align: left;
 	transition: top 0.25s;
 }
@@ -134,15 +138,15 @@ hr {
 	font-weight: bold;
 	list-style-type: none;
 	float:right;
-	top:20px;
+	top:22px;
 }
 
 #nav_wrapper.shrink {
-    top: 25px;
+    top: 32px;
 }
 
 #header_wrapper.shrink {
-	top:-20px;
+	top:-15px;
 }
 
 #nav ul li {
@@ -150,7 +154,7 @@ hr {
 }
 
 #nav ul li a:hover {
-	color: #00cc00;
+	color: #33CCCC;
 }
 
 #nav ul li a, visited{
@@ -167,10 +171,10 @@ hr {
 #nav ul ul {
 	display:none;
 	position:absolute;
-	background-color: #f2f2f2;
+	background-color: #F8F8F8;
 	z-index:100;
 	padding-left: -25px;
-	border: 2px solid #cce0ff;
+	border: 2px solid #F2F2F2;
 	border-top: 0;
 	margin-top: 12px;
 }
@@ -181,7 +185,11 @@ hr {
 }
 
 #nav ul ul li:hover {
-	background-color: #bfbfbf; 
+	background-color: #505050; 
+}
+
+#nav ul ul li a:hover {
+	color:white; 
 }
 
 /* Media Queries */
