@@ -1,3 +1,7 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
 html, body
 {
   	left: 0;
@@ -26,7 +30,6 @@ div img {
 	margin:50px;
 	height:350px;
 	width:275px;
-	z-index:0;
 	border: 6px solid  #D8D8D8 ;
 }
 
@@ -56,6 +59,85 @@ hr {
 	border: 1px solid black;
 }
 
+/* entypo */
+[class*="entypo-"]:before {
+   font-family: "entypo", sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.container {
+   margin: 0 auto;
+   padding: 20px 50px;
+   z-index:10;
+}
+
+#socialmedia {
+   left: 0;
+   position: fixed;
+   top: 200px;
+   z-index:50;
+}
+
+#socialmedia ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   top:20px;
+}
+
+#socialmedia a {
+   background: #333;
+   color: #fff;
+   display: block;
+   width: 55px;
+   height: 55px;
+   font: 25px;
+   font-family:'Oswald';
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+ }
+
+#socialmedia a span {
+   line-height: 55px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:90px;
+}
+
+#socialmedia a:hover span {
+   left: 100%;
+}
+
+#socialmedia a[class*="facebook"],
+#socialmedia a[class*="facebook"]:hover,
+#socialmedia a[class*="facebook"] span { background: #3b5998; z-index:10;}
+
+#socialmedia a[class*="sitemap"],
+#socialmedia a[class*="sitemap"]:hover,
+#socialmedia a[class*="sitemap"] span { background: #00aced; }
+
+#socialmedia a[class*="linkedin"],
+#socialmedia a[class*="linkedin"]:hover,
+#socialmedia a[class*="linkedin"] span { background: #007bb6; }  
+
+#socialmedia a[class*="github"],
+#socialmedia a[class*="github"]:hover,
+#socialmedia a[class*="github"] span { background: #517fa4; }  
+
+#socialmedia a[class*="html5"],
+#socialmedia a[class*="html5"]:hover,
+#socialmedia a[class*="html5"] span { background: #33adff; }  
 
 .resumecontainer li {
 	font-size: 20px;
@@ -86,7 +168,6 @@ hr {
 	position:relative;
 	top:160px;
 	width:100%;
-	z-index:0;
 	margin: 0 auto;
 }
 
