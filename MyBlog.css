@@ -267,7 +267,6 @@ hr {
 }
 
 #nav ul li:hover > ul {
-    opacity: 0;
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -moz-animation: fadein 2s; /* Firefox */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -317,5 +316,42 @@ hr {
 	.about {
 		margin-left: 15px;
 		font-size: 32px;
+	}
+}
+
+@media (max-width:500px) {
+	#socialmedia {
+		visibility: hidden;
+
+	}
+}
+
+@media (max-width:500px){
+	.about {
+		text-align:center;
+	}
+}
+
+@media (max-width:500px){
+	.container {
+		left:-10px;
+	}
+}
+
+@media (max-width:500px){
+	.container {
+		left:-10px;
+	}
+}
+
+@media (max-width:400px){
+	div img {
+		margin-left:20px;
+	}
+}
+
+@media (max-width:500px){
+	#nav {
+		padding-right:30%;
 	}
 }
