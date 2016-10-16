@@ -2,8 +2,11 @@
 @import url(http://weloveiconfonts.com/api/?family=fontawesome);
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
+html{
+	overflow-x:hidden;
+}
 
-html, body
+body
 {
   	left: 0;
     margin: 0;
@@ -275,10 +278,10 @@ hr {
 }
 
 #nav ul li:hover > ul {
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -moz-animation: fadein 2s; /* Firefox */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-    -o-animation: fadein 2s; /* Opera */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera */
 }
 
 @keyframes fadein {
