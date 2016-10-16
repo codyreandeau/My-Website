@@ -63,16 +63,19 @@ hr {
 /* entypo */
 [class*="entypo-"]:before {
    font-family: "entypo", sans-serif;
+   font-size: 22px;
 }
 
 /* fontawesome */
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
+  font-size: 22px;
 }
 
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
+  font-size: 22px;
 }
 
 .container {
@@ -86,7 +89,7 @@ hr {
    position: fixed;
    top: 200px;
    z-index:50;
-}
+ }
 
 #socialmedia ul {
    list-style: none;
@@ -101,7 +104,6 @@ hr {
    display: block;
    width: 55px;
    height: 55px;
-   font: 25px;
    font-family:'Oswald';
    line-height: 35px;
    position: relative;
@@ -138,7 +140,12 @@ hr {
 
 #socialmedia a[class*="html5"],
 #socialmedia a[class*="html5"]:hover,
-#socialmedia a[class*="html5"] span { background: #33adff; }  
+#socialmedia a[class*="html5"] span { background: #33adff; } 
+
+#socialmedia a[class*="fire"],
+#socialmedia a[class*="fire"]:hover,
+#socialmedia a[class*="fire"] span { background: #335aaa; } 
+
 
 .resumecontainer li {
 	font-size: 20px;
@@ -340,18 +347,12 @@ hr {
 
 @media (max-width:500px){
 	.container {
-		left:-10px;
-	}
-}
-
-@media (max-width:400px){
-	div img {
-		margin-left:20px;
+		left:-50px;
 	}
 }
 
 @media (max-width:500px){
 	#nav {
-		padding-right:30%;
+		padding-right:35%;
 	}
 }
